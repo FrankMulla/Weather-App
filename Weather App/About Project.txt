@@ -1,0 +1,1 @@
+Group project(Assignment) worked on by 4 people. This project tested the use of Google Maps Api and a Weather Api to get the weather of specific locations straight to your phone as a web app.

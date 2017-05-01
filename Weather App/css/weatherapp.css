@@ -1,0 +1,54 @@
+html, body { 
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+}
+.BoldList{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+#MapArea {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 10px;
+    z-index: -1;
+ }
+#MapCanvas{
+    z-index: 0;
+    height: 400px;
+    width: 100%;
+}
+#addLocationButton{
+    margin-top: 10px;
+}
+#slider {
+    width: 100%;
+}
+
+#WeatherDateArea {
+    font-size: 35px;
+    padding: 10px;
+    width:100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#WeatherSummary{
+    font-size: small;
+    width: 95%;
+    margin-bottom: 10px;
+}
+.mdl-layout__content{
+    background-image: url('../images/weatherbackground.jpg');
+    background-size: 100% 100%;
+}
+.mdl-list__item-sub-title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.centreObjects {
+    display: flex;
+    justify-content: center;
+}
